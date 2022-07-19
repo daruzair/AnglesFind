@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'
+        rel='stylesheet'>
+        <title>Types Of Angle</title>
+        <style>
+            .creater{
+                position: fixed;
+                bottom: 5%;
+                right: 5%;
+                color: rgb(141, 141, 141);
+                font-style: italic;
+            }
+            .creater span:last-child{
+                font-style: italic;
+            }
+            .btn{
+                cursor: pointer;
+                background-color: transparent;
+                border: 1px solid black;
+                padding: 0.5rem 1rem;
+                border-radius: 3px;
+                display: inline-block;
+                transition: .3s background linear;
+                box-shadow: 0px 20px 15px -10px gray;
+            }
+
+        .btn:hover{
+           
+            color: #f0f0f0;
+            animation:  btn-animate .9s .1s linear forwards;
+        }
+        @keyframes btn-animate {
+            0%{
+                transform: scaleX(1) scaleY(1);
+            }
+            15%{
+                transform: scaleX(1.5) scaleY(0.5);
+            }
+            30%{
+                transform: scaleX(0.75) scaleY(1.25);
+            }
+            50%{
+                transform: scaleX(1.15) scaleY(0.85);
+            }
+            75%{
+                transform: scaleX(0.9) scaleY(1.1);
+            }
+            100%{
+                transform: scaleX(1) scaleY(1);
+            }
+
+
+
+        }
+            *{
+                padding: 0%;
+                margin: 0%;
+                box-sizing: border-box;
+                user-select: none;
+            }
+            body{
+                width: 100%;
+                background-color: rgb(34, 34, 37);
+            }
+            .main{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin: 30px;
+            }
+            .wrapper{
+                display: flex;
+                margin: 5px;
+            }
+            .section{
+                margin-top: 20px;
+            }
+            .box:hover{
+                cursor:pointer;
+            }
+            h3{
+                color: white;
+            }
+            .box{
+                margin: 1px 7px;
+                min-width: 55px;
+                padding: 15px;
+                height: 45px;
+                box-shadow: inset 1px 1px 6px 0 #fff,
+                        inset 0px 0px 6px 0 #000;
+                display: flex;  
+                align-items: center;
+                justify-content: center;
+                border-radius: 10%;
+                transition: 0.5s all ease;
+            }
+            .button .active{
+                box-shadow: inset 0px 0px 6px 0 #fff,
+                        inset 1px 1px 6px 0 #000; 
+            }
+            .active h3{
+                color: #0ff;
+                text-shadow: 0px 0px 5px #0ff;
+                transition: 0.5s all ease;
+            }
+            .content{
+                font-size: 1.1rem;
+                color: white;
+                text-align: center;
+                margin-bottom: 10px;
+                text-decoration: underline;
+            }
+            .main>.content{
+                font-size: 1.5rem;
+                border-bottom: 1px solid white;
+                margin: 0;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <main class='main'>       
+            <div class="content">Types Of Angles</div>
+            <div class="section interior-angles">
+                <div class='wrapper'>
+                    <div class='button'>
+                        <div id='i' class='box btn'>
+                            <h3>Interior &#8736;`s</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='e' class='box btn'>
+                            <h3>Exterior &#8736;`s</h3>   
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="section vertically-opposite-angles">
+                <div class="content">Vertically Opposite Angles</div>
+                <div class='wrapper'>
+                    <div class='button'>
+                        <div id='1' class='box btn'>
+                            <h3>&#8736; 1</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='2' class='box btn'>
+                            <h3>&#8736; 2</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='3' class='box btn'>
+                            <h3>&#8736; 3</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='4' class='box btn'>
+                            <h3>&#8736; 4</h3>   
+                        </div>
+                    </div>
+                </div>
+                <div class='wrapper'>
+                    <div class='button'>
+                        <div id='5' class='box btn'>
+                            <h3>&#8736; 5</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='6' class='box btn'>
+                            <h3>&#8736; 6</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='7' class='box btn'>
+                            <h3>&#8736; 7</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='8' class='box btn'>
+                            <h3>&#8736; 8</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section corresponding-angles">
+                <div class="content">Corresponding Angles</div>
+                <div class='wrapper'>
+                    <div class='button'>
+                        <div id='1' class='box btn'>
+                            <h3>&#8736; 1</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='2' class='box btn'>
+                            <h3>&#8736; 2</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='3' class='box btn'>
+                            <h3>&#8736; 3</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='4' class='box btn'>
+                            <h3>&#8736; 4</h3>   
+                        </div>
+                    </div>
+                </div>
+                <div class='wrapper'>
+                    <div class='button'>
+                        <div id='5' class='box btn'>
+                            <h3>&#8736; 5</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='6' class='box btn'>
+                            <h3>&#8736; 6</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='7' class='box btn'>
+                            <h3>&#8736; 7</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='8' class='box btn'>
+                            <h3>&#8736; 8</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section alternate-interior-angles">
+                <div class="content">Alternate Interior Angles</div>
+                <div class='wrapper'>                    
+                    <div class='button'>
+                        <div id='3' class='box btn'>
+                            <h3>&#8736; 3</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='4' class='box btn'>
+                            <h3>&#8736; 4</h3>   
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='5' class='box btn'>
+                            <h3>&#8736; 5</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='6' class='box btn'>
+                            <h3>&#8736; 6</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section alternate-exterior-angles">
+                <div class="content">Alternate Exterior Angles</div>
+                <div class='wrapper'>
+                    <div class='button'>
+                        <div id='1' class='box btn'>
+                            <h3>&#8736; 1</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='2' class='box btn'>
+                            <h3>&#8736; 2</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='7' class='box btn'>
+                            <h3>&#8736; 7</h3>
+                        </div>
+                    </div>
+                    <div class='button'>
+                        <div id='8' class='box btn'>
+                            <h3>&#8736; 8</h3>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </main>
+        <div class="creater">
+                <span>Created by :</span> <span>Aabid Fayaz</span>
+        </div>
+    </body>
+    <script>
+        let interiorAngle=document.querySelector("#i");
+        let exteriorAngle=document.querySelector("#e");
+        let verticallyOppositeAngles=document.querySelectorAll(".vertically-opposite-angles .box");
+        let correspondingAngles=document.querySelectorAll(".corresponding-angles .box");
+        let alternateInteriorAngles=document.querySelectorAll(".alternate-interior-angles .box");
+        let alternateExteriorAngles=document.querySelectorAll(".alternate-exterior-angles .box");
+        
+        interiorAngle.addEventListener("click",function(event){
+               const supers=this;
+                executeCommand(this.id,"ia",function(){
+                    supers.classList.toggle("active");
+                });
+            });
+        exteriorAngle.addEventListener("click",function(event){
+            const supers=this;
+            executeCommand(this.id,"ea",function(){
+                supers.classList.toggle("active");
+            });
+        });
+
+        verticallyOppositeAngles.forEach(function(voa){
+            
+            voa.addEventListener("click",function(event){
+               const supers=this;
+                executeCommand(this.id,"voc",function(){
+                    supers.classList.toggle("active");
+                });
+            });
+        });
+        correspondingAngles.forEach(function(ca){
+
+            ca.addEventListener("click",function(event){
+               const supers=this;
+                executeCommand(this.id,"ca",function(){
+                    supers.classList.toggle("active");
+                });
+            }); 
+        });
+        alternateInteriorAngles.forEach(function(aia){
+
+            aia.addEventListener("click",function(event){
+               const supers=this;
+                executeCommand(this.id,"aia",function(){
+                    supers.classList.toggle("active");
+                });
+            });   
+        });
+        alternateExteriorAngles.forEach(function(aea){
+
+            aea.addEventListener("click",function(event){
+               const supers=this;
+                executeCommand(this.id,"aea",function(){
+                    supers.classList.toggle("active");
+                });
+            }); 
+        });
+
+        function executeCommand(id,command,responcefunc){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    responcefunc();
+                }
+            }
+            xhttp.open('POST', '/'+command, true );
+            xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            
+            xhttp.send('id='+id);
+        }
+    </script>
+</html>
